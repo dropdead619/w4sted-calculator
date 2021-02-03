@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>w4stedcalculator</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/vendor.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>w4stedcalculator</h1>
+      </div>
+      <span id="year" class="year"> </span>
+    </header>
+    <section id="Calculator">
+      <div class="calc">
+        <input type="number" id="input-number" />
+        <div class="currentCalc">
+          <h2 id="CurrentCalculations">0</h2>
+        </div>
+        <div class="buttons">
+          <button type="button" id="btn-add">+</button>
+          <button type="button" id="btn-subtract">-</button>
+          <button type="button" id="btn-multiply">*</button>
+          <button type="button" id="btn-divide">/</button>
+        </div>
+        <div class="results">
+          <h2 >Result: <span id="result">0</span></h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
